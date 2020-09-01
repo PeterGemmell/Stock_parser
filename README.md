@@ -4,15 +4,12 @@
 
 * In the commmand line navigate to the Stock_parser
 
-* In the Stock_parser folder
+* In the Stock_parser folder type pipenv shell
 
-* Type the command python3 manage.py runserver
+* Type the command python parser.py
 
-* Copy the development server http address which appears
+* View recommendations.csv file now saved to your computer
 
-* Paste this into your chrome browser and press return
-
-* View the different cities weathers and add you own!
 
 
 
