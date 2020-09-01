@@ -31,3 +31,10 @@ for ticker in tickers:
     print("--------------------------------------------")
     print("{} has an average recommendation of: ".format(ticker), recommendation)
     # time.sleep(0.5)
+
+
+dataframe = pd.DataFrame(list(zip(tickers, recommendations)), columns =['Company', 'Recommendations'])
+dataframe = dataframe.set_index('Company')
+dataframe.to_csv('recommendations.csv')
+
+print(df)
