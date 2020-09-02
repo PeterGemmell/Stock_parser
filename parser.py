@@ -24,6 +24,8 @@ for ticker in tickers:
     except:
         recommendation = 6
 
+    # Added in sort so we now have the list in order with best buy's together.
+    recommendations.sort()
     recommendations.append(recommendation)
 
     print("--------------------------------------------")
