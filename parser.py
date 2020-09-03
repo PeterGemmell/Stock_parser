@@ -4,6 +4,18 @@ from yahoo_fin import stock_info as si
 from pandas_datareader import DataReader
 import numpy as np
 
+# First we define a variable called tickers which is set
+# To contain all ticker symbols in the S&P 500.
+
+# Next the recommendations variable is set to and empty list.
+# This is used to store the values we gather from the For Loop we create.
+
+# The For Loop is accessing the Yahoo Finance page and collecting its respective recommendation
+# rating.
+
+# Finally a Pandas DataFrame is created containing each ticker and its recommendation. This is then
+# downloaded in CSV format to the computer.
+
 tickers = si.tickers_sp500()
 recommendations = []
 
